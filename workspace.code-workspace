@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		
+		"hide-files.files": [
+			"workspace.code-workspace",
+			".vscode"
+		]
+	},
+
+	
+}

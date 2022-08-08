@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-web-app
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      name: go-web-app
+  template:
+    metadata:
+      labels:
+        name: go-web-app
+    spec:
+      containers:
+      - name: application
+        image: loja/go-web-app
+        imagePullPolicy: IfNotPresent
+        ports:
+          - containerPort: 8080
+        ports:
+          - containerPort: 2345
+          

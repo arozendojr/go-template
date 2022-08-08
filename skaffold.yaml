@@ -1,0 +1,14 @@
+apiVersion: skaffold/v2beta29
+kind: Config
+metadata:
+  name: go-rest
+build:
+  artifacts:
+  - image: loja/go-web-app
+    docker:
+      dockerfile: Dockerfile_debug
+deploy:
+  kubectl:
+    manifests:
+    - k8s/deploy.yaml
+    - k8s/service.yaml
