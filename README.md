@@ -1,24 +1,26 @@
 ## Template project in Go
 
-# Index
+# Summary
 
-- [About](#-about)
-- [Download and run project](#-Download-and-run-project)
-- [Local development recommend](#-local-development-recommend)
-- [Dependencies](#-dependencies)
-- [Optional tools](#-optional-tools)
-- [Setting the local variables](#-setting-the-local-variables)
-- [Loading local variables](#-loading-local-variables)
-- [Generation backup plugins vscode](#-generation-backup-plugins-vscode])
-- [Install plugins](#-install-plugins)
-- [Test in kubernets local](#-test-in-kubernets-local)
-- [Modifying the project](#-modifying-the-project)
+- [About](#about)
+- [Download and run project](#download-and-run-project)
+- [Local development recommend](#local-development-recommend)
+- [Dependencies](#dependencies)
+- [Optional tools](#optional-tools)
+- [Setting the local variables](#setting-the-local-variables)
+- [Loading local variables](#loading-local-variables)
+- [Dependencies for debug](#dependencies-for-debug)
+- [Generation backup plugins vscode](#generation-backup-plugins-vscode)
+- [Install plugins](#install-plugins)
+- [Test in kubernets local](#test-in-kubernets-local)
+- [Modifying the project](#modifying-the-project)
 
 ## About
+- [Inspirado em golang-standards project-layout](https://github.com/golang-standards/project-layout)
 - Purpose of being a base project
 - Have necessary tools
 - Have debug .json configured
-
+- Hello World Rest
 
 ## Download and run project
 ```bash
@@ -126,7 +128,7 @@ git switch master
 
 
 ### Running squash
-- git rebase -i master
+- git rebase -i main
 
 - Next pass
 - Edit commit for squash
@@ -136,4 +138,5 @@ git switch master
 - Edit long message
 - quit
 
-## Developers
+### commit with last commet
+- git commit --amend --no-edit
