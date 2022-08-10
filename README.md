@@ -1,6 +1,6 @@
-## Template project in Go
+# Go Template <br/><br/> Summary
 
-# Summary
+
 
 - [About](#about)
 - [Download and run project](#download-and-run-project)
@@ -56,7 +56,7 @@
 - nano ~/.bashrc
 - export GOPATH=~/go
 - export GOROOT=$(asdf where golang)/go
-- #export GOROOT=/golang/1.18.4/go
+- #export GOROOT=~/golang/1.18.4/go
 - export PATH=$PATH:$GOROOT/bin
 
 ## Loading local variables
@@ -79,11 +79,13 @@ source ~/.bashrc
 
 ## Install plugins
 - code --install-extension alphabotsec.vscode-eclipse-keybindings
+- code --install-extension bierner.markdown-preview-github-styles
 - code --install-extension golang.go
 - code --install-extension hediet.vscode-drawio
 - code --install-extension jebbs.plantuml
 - code --install-extension ms-azuretools.vscode-docker
 - code --install-extension ms-vscode-remote.remote-containers
+- code --install-extension ms-vscode.makefile-tools
 - code --install-extension neonxp.gotools
 - code --install-extension PKief.material-icon-theme
 - code --install-extension roonie007.hide-files
@@ -116,27 +118,37 @@ or
 git switch master
 ```
 
-- git checkout -b feat/my-feature
+- git checkout -b feature/my-feature
 
 ### Commit 1
 - git add .
-- ./scripts/commit.sh 
+- make commit
+
+![commit](https://user-images.githubusercontent.com/36340691/184033851-bbb7a419-a8dd-44ea-b6f9-d48cb69efa8f.png)
 
 ### Commit 2
 - git add .
-- ./scripts/commit.sh
+- make commit
 
+![commit](https://user-images.githubusercontent.com/36340691/184033851-bbb7a419-a8dd-44ea-b6f9-d48cb69efa8f.png)
 
 ### Running squash
-- git rebase -i main
+- make squash
+
+![squash](https://user-images.githubusercontent.com/36340691/184034961-dacba4e1-1597-423b-bd9e-113ef2636b3c.png)
 
 - Next pass
 - Edit commit for squash
-- switch from pick to squash and quit
+- switch from pick to squash, save and quit
+
+![squash_2](https://user-images.githubusercontent.com/36340691/184035047-57b3792c-73c3-43ef-88c4-4f5710e03f54.png)
 
 - Next pass
 - Edit long message
-- quit
+
+![squash_3](https://user-images.githubusercontent.com/36340691/184035116-2007e596-c295-43dc-9e54-f22ee60d1817.png)
+
+- save and quit
 
 ### commit with last commet
-- git commit --amend --no-edit
+- make amend
