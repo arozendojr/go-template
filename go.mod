@@ -1,7 +1,7 @@
 module github.com/arozendojr/go-rest
 
 go 1.18
-
+ 
 require (
 	github.com/labstack/echo v3.3.10+incompatible
 	github.com/stretchr/testify v1.7.1
