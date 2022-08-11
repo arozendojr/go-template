@@ -1,6 +1,10 @@
-# Go Template <br/><br/> Summary
+# Go Template <br/>
 
+- [Participate](https://github.com/arozendojr/go-template/issues)
+- [Contribute](https://github.com/arozendojr/go-template/issues)
+- [Report bugs](https://github.com/arozendojr/go-template/issues)
 
+<br/> Summary
 
 - [About](#about)
 - [Download and run project](#download-and-run-project)
