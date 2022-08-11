@@ -4,6 +4,7 @@
 
 - [About](#about)
 - [Download and run project](#download-and-run-project)
+- [Debug](#debug)
 - [Local development recommend](#local-development-recommend)
 - [Dependencies](#dependencies)
 - [Optional tools](#optional-tools)
@@ -37,6 +38,12 @@
     {"Text":"Hello World","Code":"200"}
 
 ```
+
+## Debug
+- Open project with vscode
+- [Loading local variables](#loading-local-variables)
+- See picture
+
 
 ## Local development recommend 
 - [Asdf](https://asdf-vm.com/guide/getting-started.html)
@@ -111,11 +118,11 @@ Close all programs you don't need, before starting the command below
 ## Modifying the project
 
 ```
-git checkout master
+git checkout develop
 ```
 or
 ```
-git switch master
+git switch develop
 ```
 
 - git checkout -b feature/my-feature
