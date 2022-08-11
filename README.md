@@ -4,7 +4,6 @@
 
 - [About](#about)
 - [Download and run project](#download-and-run-project)
-- [Debug](#debug)
 - [Local development recommend](#local-development-recommend)
 - [Dependencies](#dependencies)
 - [Optional tools](#optional-tools)
@@ -38,28 +37,6 @@
     {"Text":"Hello World","Code":"200"}
 
 ```
-
-## Debug
-- Open project with vscode
-- [Loading local variables](#loading-local-variables)
-- See picture
-
-![debug1](https://user-images.githubusercontent.com/36340691/184159303-c0069eed-680d-488d-9a57-c66f1dff9605.png)
-
-![debug2](https://user-images.githubusercontent.com/36340691/184159342-ad21912a-096b-4a15-9dfb-85e6e16cf19c.png)
-
-![debug3](https://user-images.githubusercontent.com/36340691/184159370-8beb8c53-a8f2-4dc9-83e2-521de83a3b07.png)
-
-![debug4](https://user-images.githubusercontent.com/36340691/184159390-e55b15a4-6c51-4ac0-a376-b0049d9d370f.png)
-
-![debug5](https://user-images.githubusercontent.com/36340691/184159411-80fe1ae9-c8db-4180-9ca9-c3e354cca457.png)
-
-![debug6](https://user-images.githubusercontent.com/36340691/184159452-4b8b535f-d6b8-4a6a-acef-1e8dc2e4990a.png)
-
-![debug7](https://user-images.githubusercontent.com/36340691/184159474-c9b599e3-d08e-4841-894b-46d43b9b4b86.png)
-
-![debug8](https://user-images.githubusercontent.com/36340691/184159494-76fce603-b63c-421f-a272-273476254c23.png)
-
 
 ## Local development recommend 
 - [Asdf](https://asdf-vm.com/guide/getting-started.html)
@@ -134,11 +111,11 @@ Close all programs you don't need, before starting the command below
 ## Modifying the project
 
 ```
-git checkout develop
+git checkout master
 ```
 or
 ```
-git switch develop
+git switch master
 ```
 
 - git checkout -b feature/my-feature
